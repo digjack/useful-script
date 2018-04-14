@@ -22,6 +22,10 @@ deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted univ
 # deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
 # deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse" >/etc/apt/sources.list
 
+apt-get update
+
+#git
+apt-get install git
 
 # zsh
 apt-get install zsh
