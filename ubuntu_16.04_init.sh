@@ -27,6 +27,9 @@ apt-get update
 #git
 apt-get install git
 
+#vim
+apt-get install vim
+
 # zsh
 apt-get install zsh
 
