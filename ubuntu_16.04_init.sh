@@ -24,14 +24,8 @@ deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted univ
 
 apt-get update
 
-#git
-apt-get install git
-
-#vim
-apt-get install vim
-
-# zsh
-apt-get install zsh
+#base software
+apt-get install git vim curl zsh
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
