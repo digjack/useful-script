@@ -25,7 +25,7 @@ deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted univ
 apt-get update
 
 #base software
-apt-get install git vim curl zsh
+apt-get -y install git vim curl zsh php7.0 nginx
 
 #zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
